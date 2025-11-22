@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "builds": [
     {
       "src": "main.py",
@@ -11,26 +11,5 @@
       "src": "/(.*)",
       "dest": "main.py"
     }
-  ],
-    "headers": [
-
-    {
-
-      "source": "/api/(.*)",
-
-      "headers": [
-
-        { "key": "Access-Control-Allow-Origin", "value": "https://siby-front.vercel.app" },
-
-        { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
-
-        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization" },
-
-        { "key": "Access-Control-Allow-Credentials", "value": "true" }
-
-      ]
-
-    }
-
   ]
 }
