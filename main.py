@@ -26,7 +26,7 @@ app = FastAPI()
 # Enable CORS
 # ----------------------
 origins = [
-    "http://196.207.222.200:3000",
+    "https://siby-front.vercel.app/"
     "http://localhost:3000",
 ]
 app.add_middleware(
