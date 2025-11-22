@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 # Load environment variables
 # ----------------------
 load_dotenv()
-API_KEY = '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'
+API_KEY = os.getenv("GROQ_API_KEY")
 if not API_KEY:
     raise RuntimeError(
         "GROQ_API_KEY not found! Make sure your .env is in the same folder and contains the key."
