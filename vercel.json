@@ -12,6 +12,9 @@
     }
   ],
   "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
         {
           "key": "Access-Control-Allow-Origin",
           "value": "*"
@@ -25,4 +28,6 @@
           "value": "Content-Type, Authorization"
         }
       ]
+    }
+  ]
 }
