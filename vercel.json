@@ -19,7 +19,7 @@
 
       "headers": [
 
-        { "key": "Access-Control-Allow-Origin", "value": "https://app.example" },
+        { "key": "Access-Control-Allow-Origin", "value": "https://siby-front.vercel.app" },
 
         { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
 
